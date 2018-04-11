@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adityakumar.recipe.Mushroommanchurian"
+    android:background="@drawable/hello">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:src="@drawable/mushroomanchurian"
+            android:scaleType="fitStart"
+            android:layout_alignParentEnd="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mushroom Manchurian"
+            android:textSize="22sp"
+            android:id="@+id/text20"
+            android:layout_marginStart="20dp"
+            tools:layout_editor_absoluteY="255dp"
+            tools:layout_editor_absoluteX="16dp"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="216dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nIngrediants Required -
+\n• Cornflours - 4 tablespoons
+\n• Maida flour - 2 tablespoons
+\n• White button mushroom - 250 grams
+\n• Garlic paste - ½ teaspoon
+\n• Ginger paste - ½ teaspoon
+\n• Soy sauce - ½ teaspoon
+\n• Oil (for frying) - as required
+\n• Salt - as required
+\n• Water - 4 tablespoons\n
+\nINGREDIENTS FOR SAUTÉING -
+\n• Garlic paste - ½ teaspoon
+\n• Ginger paste - ½ teaspoon
+\n• Green chilly (finely chopped) - 1
+\n• Onion (finely chopped) - 1
+\n• Spring onions (finely chopped) - 2 tablespoons
+\n• Oil - 2 tablespoons
+\n• Soy sauce - 1 ½ tablespoons
+\n• Chilly sauce - ½ tablespoon
+\n• Tomato ketchup - 2 tablespoons
+\n• Salt - as required\n
+\nMETHOD -
+\n1. Wash and clean mushrooms to remove any dirt. Dry them with kitchen towel and cut them into medium pieces.
+\n2. Mix maida flour, cornflour, ginger paste, garlic paste, ½ teaspoon soy sauce, salt and 4 tablespoons water in a bowl.
+\n3. Mix and make a medium thick batter. Dip mushrooms pieces in prepared batter and coat them with it.
+\n4. Heat oil in a deep frying pan (pan). Deep fry them over medium flame until they just started to turn light golden brown.
+\n5. Do not deep fry them long time otherwise they start to release the water and oil may be splatter.
+\n6. Take them out from oil and drain excess oil.\n
+\nMETHOD TO SAUTÉ -
+\n1. Heat 2 tablespoons oil in a wide, thin-bottomed, pan (wok) on high flame.
+\n2. Add ginger paste, garlic paste, chopped green chilly and diced onion.
+\n3. Sauté on high flame for 1-2 minutes.
+\n4. Add soy sauce, tomato ketchup,chilly sauce, salt,fried mushroom pieces and spring onion; mix them well.
+\n5. Now toss and cook. Keep tossing everything and cook for 1-2 minutes.
+\n6. Delicious dry mushroom manchurian is ready.
+\n
+\n
+\n
+"
+            android:textSize="15dp"
+            android:textColor="@android:color/black"
+            android:layout_alignTop="@+id/text20"
+            android:layout_alignStart="@+id/text20"
+            android:layout_marginTop="25dp"
+            android:id="@+id/textView15" />
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go to Video"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="391dp" />
+    </RelativeLayout>
+</ScrollView>

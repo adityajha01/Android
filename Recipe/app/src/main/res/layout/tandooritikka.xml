@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adityakumar.recipe.Eggpuff"
+    android:background="@drawable/whiteplain">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:src="@drawable/tandoortikka"
+            android:scaleType="fitStart"
+            android:layout_alignParentEnd="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tandoori Chicken Tikka"
+            android:textSize="22sp"
+            android:id="@+id/text20"
+            android:layout_marginStart="20dp"
+            tools:layout_editor_absoluteY="255dp"
+            tools:layout_editor_absoluteX="16dp"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="216dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nINGREDIENTS REQUIRED -
+\n• Boneless chicken (cut into 2 inch pieces 8-12) - 500 grams
+\n• Ginger-garlic paste - 2 teaspoons
+\n• Curd - ¼ cup
+\n• Malai/Cream - 3 tablespoons
+\n• Black salt - ¼ teaspoon
+\n• Cumin powder (roasted) - ¼ teaspoon
+\n• Soya sauce - ½ teaspoon
+\n• Orange or red colours - few drops
+\n• Salt - as required\n
+
+\nINGREDIENTS FOR GARNISHING
+\n• Lemon juice - as required
+\n• Chaat masala - as required
+\n• Onion rings - as required\n
+
+\nMETHOD
+\n1. Wash the chicken pieces and pat dry on a kitchen towel.
+\n2. In a bowl mix curd, ginger garlic paste, malai, black salt, cumin powder, soya sauce (to give a dark colour) orange-red colour and salt.
+\n3. Add chicken. Keep aside in a cool place to marinate for 3-4 hours.
+\n4. Heat a gas oven or barbecue. Cook for 15-20 min, turning once in between with help of tongs.
+\n5. Baste (moisten) with little oil if needed.
+\n6. To cook in an electric oven, set temp to 180°C-200°C.
+\n7. Place the chicken on the wire rack (lower center) with a drip tray below. Cook till tender.
+\n8. Serve hot garnished with chat masala, lemon juice and onion rings.
+\n
+\n
+\n"
+            android:textSize="15dp"
+            android:textColor="#FF0000"
+            android:layout_alignTop="@+id/text20"
+            android:layout_alignStart="@+id/text20"
+            android:layout_marginTop="25dp" />
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go to Video"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="390dp" />
+    </RelativeLayout>
+</ScrollView>

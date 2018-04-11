@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adityakumar.recipe.Eggpuff"
+    android:background="@drawable/bige">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:src="@drawable/egg"
+            android:scaleType="fitStart"
+            android:layout_alignParentEnd="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Egg Puffs"
+            android:textSize="22sp"
+            android:id="@+id/text20"
+            android:layout_marginStart="20dp"
+            tools:layout_editor_absoluteY="255dp"
+            tools:layout_editor_absoluteX="16dp"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="216dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nINGREDIENTS FOR THE FILLING -
+\n• Eggs - 6
+\n• Pepper - 1 teaspoon
+\n• Cumin seeds - 1 teaspoon
+\n• Garam masala powder - ¼ teaspoon
+\n• Salt - as required\n
+
+\nINGREDIENTS FOR THE DOUGH
+\n• Maida - 2 cups
+\n• Salt - 1 teaspoon
+\n• Margarines - ½ cup
+\n• Egg (for coating) - 1
+\n• Ice cold waters to mix - as required\n
+
+\nMETHOD
+\n1. Boil eggs, remove shells and cut them lengthwise.
+\n2. Grind pepper, cumin, garam masala and salt.
+\n3. Apply this on the eggs and keep aside.
+\n4. Sieve maida with salt.
+\n5. Add ice cold water and knead to a smooth and soft dough.
+\n6. Divide the margarine into 3 parts equally.
+\n7. Roll the dough into rectangular shape.
+\n8. Apply one part of the margarine on 2/3 of the rectangle, leaving half an inch all around.
+\n9. Fold the empty portion first and the other side on top of it.
+\n10. Roll it lightly and repeat the same process, twice more to use up all the margarine.
+\n11. Roll again lightly, cut into rectangle pieces.
+\n12. Keep a piece of egg inside and fold.
+\n13. Place on a pastry tray to which little water is brushed.
+\n14. Beat one egg separately and brush it on top of the puffs.
+\n15. Bake at 250°C for 35 minutes or till the puffs are golden brown and crisp.
+\n16. If margarine is not available use vanaspathi, which is melted in heat and then left aside for sometime to set.\n  \n
+\n
+\n"
+            android:textSize="15dp"
+            android:textColor="#FF4500"
+            android:layout_alignTop="@+id/text20"
+            android:layout_alignStart="@+id/text20"
+            android:layout_marginTop="25dp"
+            android:id="@+id/textView11" />
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go to Video"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="267dp" />
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adityakumar.recipe.Lemonrice"
+    android:background="#000">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:src="@drawable/lemon"
+            android:scaleType="fitStart"
+            android:layout_alignParentEnd="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lemon Rice"
+            android:textSize="22sp"
+            android:id="@+id/text20"
+            android:layout_marginStart="20dp"
+            tools:layout_editor_absoluteY="255dp"
+            tools:layout_editor_absoluteX="16dp"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="216dp"
+            android:textColor="#FFFFFF"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nIngrediants Required -
+\n• Rice - 1 cup
+\n• Lemons - 2
+\n• Salt - as required
+\n• Turmeric powder - ½ teaspoon
+\n• Green chillies - 8
+\n• Red chillies - 2
+\n• Oil - 1 ½ tablespoons
+\n• Coconut (grated, fresh) - 1½ tablespoons(optional)
+\n• Green peas (cooked) - ¼ cup (optional)
+\n• Coriander leaves (finely cut) - a few
+\n• Curry leaves - 1 tablespoon\n
+\nINGREDIENTS FOR SEASONING -
+\n• Mustard seeds - ½ teaspoon
+\n• Black gram dal - 1 teaspoon
+\n• Bengal gram dal - 1 teaspoon
+\n• Cashew nuts (broken) - 2 teaspoons\n
+\nMETHOD -
+\n1. Cook rice and allow it to cool in a broad basin.
+\n2. Add turmeric powder on top of rice when it is still hot.
+\n3. Heat oil, fry the seasonings add red chillies and cut green chillies and fry for a minute.
+\n4. Pour over cooled rice with enough salt.
+\n5. Squeeze lemon juice and mix well.
+\n6. Garnish with coconut, coriander and curry leaves.\n
+\n
+\n"
+            android:textSize="15dp"
+            android:layout_alignTop="@+id/text20"
+            android:layout_alignStart="@+id/text20"
+            android:layout_marginTop="25dp"
+            android:textColor="#FFFF00"
+            android:id="@+id/textView14" />
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go to Video"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="259dp" />
+    </RelativeLayout>
+</ScrollView>

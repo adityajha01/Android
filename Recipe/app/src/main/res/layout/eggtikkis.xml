@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adityakumar.recipe.Eggtikkis"
+    android:background="@drawable/navyblue">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:src="@drawable/eggtiki"
+            android:scaleType="fitStart"
+            android:layout_alignParentEnd="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Egg Tikkis"
+            android:textSize="22sp"
+            android:id="@+id/text20"
+            android:layout_marginStart="20dp"
+            tools:layout_editor_absoluteY="255dp"
+            tools:layout_editor_absoluteX="16dp"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="216dp"
+            android:textColor="@android:color/white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nINGREDIENTS REQUIRED-
+\n• Eggs - 10
+\n• Potato - ¾ kg
+\n• Breads - 10
+\n• Onions - 4
+\n• Coriander leaves - 2 tablespoons
+\n• Mint leaves - 1 tablespoon (optional)
+\n• Salt - as required
+\n• Chilly powder - 1 teaspoon
+\n• Green chilly paste - 1 teaspoon
+\n• Garam masala powder - 1 teaspoon
+\n• Dhania powder - 2 teaspoons
+\n• Oil (for deep frying) - as required\n
+\nMETHOD
+\n1. Boil eggs, remove shells and keep aside.
+\n2. Slice vertically into two pieces.
+\n3. Boil potatoes, peel and mash.
+\n4. Soak bread slice one by one in water, squeeze and add it to mashed potatoes with finely cut onions, coriander, mint leaves and other masala powders.
+\n5. Mix like a thick dough. Divide the dough into 20 equal portions.
+\n6. Take one portion, make like a ball, make a dent inside, keep an egg piece inside.
+\n7. Shape like cutlets, and cover properly.
+\n8. Deep fry in hot oil.
+\n9. Serve with ketchup or mint chutney.
+\n10. Channa masala also goes very well with these tikkis.
+\n
+\n
+\n"
+            android:textSize="15dp"
+            android:layout_alignTop="@+id/text20"
+            android:layout_alignStart="@+id/text20"
+            android:layout_marginTop="25dp"
+            android:textColor="@android:color/white"
+            android:id="@+id/textView12" />
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go to Video"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="49dp" />
+    </RelativeLayout>
+</ScrollView>

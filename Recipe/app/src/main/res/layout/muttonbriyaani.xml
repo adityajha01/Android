@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adityakumar.recipe.Muttonbriyaani"
+    android:background="@drawable/ashcol">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:src="@drawable/mutton"
+            android:scaleType="fitStart"
+            android:layout_alignParentEnd="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mutton Biryani"
+            android:textSize="22sp"
+            android:id="@+id/text20"
+            android:layout_marginStart="20dp"
+            tools:layout_editor_absoluteY="255dp"
+            tools:layout_editor_absoluteX="16dp"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="216dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nINGREDIENTS REQUIRED -
+\n• Mutton piece - 750 grams
+\n• Basmati rice - 2 cups
+\n• Oil - 4 tablespoons
+\n• Pure ghee - 3 teaspoons
+\n• Dalchinis/Cinnamon sticks - 2
+\n• Moti elaichis/Black cardamoms - 6
+\n• Laungs/Cloves - 4
+\n• Onions (finely chopped) - 2
+\n• Dahi/Curd - ½ cup
+\n• Yellow chilly powder - 1 teaspoon
+\n• Salt - as required
+\n• Ginger (finely chopped) - 2 tablespoons
+\n• Mace powder/Javitris - a pinch
+\n• Mint leaves/Pudinas (finely chopped) - 2 tablespoons
+\n• Kesar/Saffron (prepare: soaked and crushed in a little milk) - a pinch\n
+
+\nMETHOD
+\n1. Boil rice in plenty of water until just tender but not fully cooked.
+\n2. Drain and keep aside.
+\n3. Heat oil in a heavy bottomed pan. Add dalchini, moti elaichi and laung.
+\n4. Saute onions until light brown. Add the mutton and saute until golden brown.
+\n5. Add salt, yellow chilly powder and dahi. Add 3 cups of water and simmer until the mutton is almost cooked.
+\n6. Remove the cooked mutton from the gravy and spread in an oven proof dish.
+\n7. Sprinkle half the cream, mint, ginger and mace powder over the meat.
+\n8. Place half of the rice over the mutton.
+\n9. Sprinkle the strained mutton Curries and Gravies, rest of the cream, melted ghee and saffron over the rice.
+\n10. Place rest of the rice on top.
+\n11. Cover the dish with a tight fitting lid and seal the sides with atta (dough)
+12. Place in a hot oven for 15-20 minutes. Remove the atta and serve piping hot.
+12. Place in a hot oven for 15-20 minutes. Remove the atta and serve piping hot.
+\n
+\n
+\n"
+            android:textSize="15dp"
+            android:textColor="#B22222"
+            android:layout_alignTop="@+id/text20"
+            android:layout_alignStart="@+id/text20"
+            android:layout_marginTop="25dp" />
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go to Video"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="110dp"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+</ScrollView>

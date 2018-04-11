@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adityakumar.recipe.KeemaMethiMatar"
+    android:background="@drawable/plaint">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:src="@drawable/keemameetha"
+            android:scaleType="fitStart"
+            android:layout_alignParentEnd="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Keema Methi Matar"
+            android:textSize="22sp"
+            android:id="@+id/text20"
+            android:layout_marginStart="20dp"
+            tools:layout_editor_absoluteY="255dp"
+            tools:layout_editor_absoluteX="16dp"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="216dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nINGREDIENTS -
+\n• Keema - 500 grams
+\n• Mustard oil - 3 tablespoons
+\n• Potatoes (cubed) - 3
+\n• Methis/Fenugreek leaves (fresh) - 1 bunch
+\n• Onions (chopped finely) - 3
+\n• Tomatoes (chopped finely) - 3
+\n• Peas - ¾ cup
+\n• Ginger paste - 1 ½ teaspoons
+\n• Garlic paste - 1 ½ teaspoons
+\n• Haldis/Turmeric powder - ½ teaspoon
+\n• Chilly powder - 1 teaspoon
+\n• Jeera/Cumin powder - 1 teaspoon
+\n• Dhania/Coriander powder - 1 teaspoon
+\n• Green chillies (finely chopped) - 3
+\n• Kasoori methis/Dry fenugreek leaves - 2 tablespoons
+\n• Tomato puree - 3 tablespoons
+\n• Salt - as required
+\n• Garam masala (for garnishing) - a little
+\n• Coriander leaves (for garnishing) - a few\n
+
+\nMETHOD
+\n1. Chop the methi leaves (without the stalks). Rub in a little salt and leave aside for 1 hour.
+\n2. Heat oil and fry onions until golden brown. Add the ginger paste, garlic paste, haldi, chilly powder, jeera powder, dhania powder, and salt.
+\n3. Add the keema and cook over medium heat for 15-20 minutes until browned and half cooked.
+\n4. Add the tomatoes, potatoes, shelled peas, tomato puree and green chillies.
+\n5. Wash the methi leaves well, squeeze out all the water and add to the keema.
+\n6. Cook over medium heat until keema and the vegetables are tender. Add the kasoori methi.
+\n7. Garnish with garam masala and the chopped coriander leaves. Serve hot with boiled rice or chapatis.\n
+\n
+\n"
+            android:textSize="15dp"
+            android:textColor="#0000FF"
+            android:layout_alignTop="@+id/text20"
+            android:layout_alignStart="@+id/text20"
+            android:layout_marginTop="25dp"
+            android:id="@+id/textView13" />
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go to Video"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</ScrollView>

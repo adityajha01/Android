@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adityakumar.recipe.Malabarfish"
+    android:background="@drawable/whiteplain">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:src="@drawable/malabarfish"
+            android:scaleType="fitStart"
+            android:layout_alignParentEnd="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Malabar Fish Biryani"
+            android:textSize="22sp"
+            android:id="@+id/text20"
+            android:layout_marginStart="20dp"
+            tools:layout_editor_absoluteY="255dp"
+            tools:layout_editor_absoluteX="16dp"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="216dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nINGREDIENTS FOR FISH MASALA -
+\n• Seer/King fish - ½ kg
+•\n Onions - 2
+\n• Ginger-garlic paste - 1 tablespoon
+\n• Green chillies (crushed) - 1 tablespoon
+\n• Tomatoes (chopped) - 1 cup
+\n• Coriander powder - 2 teaspoons
+\n• Yogurt/Curd - ¼ cup
+\n• Ghee - 1 tablespoon
+\n• Oil - as required\n
+
+\nINGREDIENTS FOR MARINATION
+\n• Chilly powder - 2 teaspoons
+\n• Pepper powder - ½ teaspoon
+\n• Turmeric powder - 1 teaspoon
+\n• Ginger-garlic paste - 2 tablespoons
+\n• Onions (small, chopped) - ½ cup
+\n• Fenugreek - a pinch
+\n• Mustard - a pinch
+\n• Salt - as required\n
+
+\nINGREDIENTS FOR WHITE PASTE
+\n• Coconut (grated) - 2 tablespoons
+\n• Poppy seeds - ½ tablespoon
+\n• Cashew nuts (soaked in water) - 1 tablespoon\n
+
+\nINGREDIENTS FOR RICE
+\n• Basmati rice - 2 cups
+\n• Water - 4 cups
+\n• Cardamoms - 6
+\n• Cinnamon sticks - 2
+\n• Cloves - 6
+\n• Ghee - 2 tablespoons
+\n• Lemon juice - 2 tablespoons
+\n• Mint leaves (chopped) - 2 tablespoons
+\n• Coriander leaves (chopped) - 3 tablespoons
+\n• Salt - as required\n
+
+\nINGREDIENTS FOR GARNISHING
+\n• Cashew nuts (broken) - 1 tablespoon
+\n• Raisins - 1 tablespoon
+\n• Ghee - 1 teaspoon\n
+
+\nMETHOD
+\n1. Marinate the cleaned fish with the ingredients meant for marination and keep it aside for 30 minutes.
+\n2. Put all the ingredients for white paste in to a blender and grind it into a soft paste and keep it aside.
+\n3. Heat the frying pan in medium heat and pour some oil and shallow fry the marinated fish and keep it aside.
+\n4. Chop the onions into thin slices. Heat the frying pan and pour 2 Tablespoon of ghee and fry the onion till it turns golden brown color. Add the ginger-garlic paste, coriander powder, crushed green chillies and saute it for a couple of minutes. Now add the chopped tomato and fry it a couple of minutes. Once the tomato is cooked add yogurt and salt to taste, stir it well. Now add the shallow fried fish pieces and make sure the fish pieces are covered with the masala. After 5 minutes add the white masala and mix it well. When the gravy becomes thick and fish is cooked remove the fish masala from the fire and keep it aside.
+\n5. Heat the pan in medium fire and add 1 Tablespoon of ghee. Add whole cardamom, cloves and broken cinnamon and fry it. Add washed rice and stir it. When the rice starts cracking add 4 cups of boiling water. Add salt to taste, coriander, mint leaves and lemon juice. Cook the rice until the water is dried completely.
+\n6. Heat the ghee in a pan and add the cashew nuts and raisins and fry till it turns into golden color and keep aside.
+\n7. Now take a heavy bottomed vessel and add the cooked rice in one layer at the bottom. Add a few spoons of the fish masala. Toss some cashew nuts and raisins and cover with a rice layer.
+\n8. Layer it up, finishing with the garnishes on top.
+\n9. Take a napkin (radius of the vessel), dampen it with water and cover the vessel.
+\n10. Put the biryani on dum for 1 hour in low heat for the flavours to develop. Serve hot.\n
+\n
+\n"
+            android:textSize="15dp"
+            android:textColor="#8B0000"
+            android:layout_alignTop="@+id/text20"
+            android:layout_alignStart="@+id/text20"
+            android:layout_marginTop="25dp" />
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go to Video"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="908dp" />
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adityakumar.recipe.Paneerbhoorji"
+    android:background="@drawable/planhotoackground">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/panr"
+            android:scaleType="fitStart"
+            android:id="@+id/imageView" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paneer Bhurji"
+            android:textSize="20sp"
+            android:id="@+id/text20"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="254dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nIngridents Required -
+\n• Oil - 1 tablespoon
+\n• Ginger-garlic paste - 1 tablespoon
+\n• Onions (chopped) - 1 cup
+\n• Turmeric powder - 1 teaspoon
+\n• Red chilly powder - 1 teaspoon
+\n• Cumin powder - 1 teaspoon
+\n• Garam masala powder - 1 tablespoon
+\n• Green chillies (chopped) - 2
+\n• Salt - as required
+\n• Tomatoes (chopped) - 1 cup
+\n• Paneers (grated) - 2 cups
+\n• Coriander leaves (for garnishing) - 1 tablespoon\n
+\nMETHOD -
+\n1. Heat oil, add ginger-garlic paste, onion,turmeric powder, red chilly powder, cumin powder, garam masala powder, green chilly, salt and saute for 5 minutes
+\n2. Add chopped tomato. Mix them well together.
+\n3. Crumble the paneer over the mixture.
+\n4. Combine them well together.
+\n5. Add fresh coriander leaves and serve hot.\n
+\n
+\n"
+            android:textSize="15sp"
+            android:textColor="#228B22"
+            android:layout_below="@+id/text20"
+            android:layout_alignStart="@+id/text20"
+            android:id="@+id/textView16" />
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go to Video"
+            android:layout_marginBottom="17dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+</ScrollView>

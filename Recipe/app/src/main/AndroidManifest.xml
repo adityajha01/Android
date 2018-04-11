@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.adityakumar.recipe">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Veg" />
+        <activity android:name=".Nonveg" />
+        <activity android:name=".About" />
+        <activity android:name=".Eggpuff" />
+        <activity android:name=".Eggtikkis" />
+        <activity android:name=".Muttonbriyaani" />
+        <activity android:name=".Tandooritikka" />
+        <activity android:name=".Malabarfish" />
+        <activity android:name=".KeemaMethiMatar" />
+        <activity android:name=".Lemonrice" />
+        <activity android:name=".Mushroommanchurian" />
+        <activity android:name=".Paneerbhoorji" />
+        <activity android:name=".Rawadhokla" />
+        <activity android:name=".Bhindimasala" />
+        <activity android:name=".Feedback" />
+        <activity android:name=".Bhindiplay" />
+        <activity android:name=".Eggpuffplay" />
+        <activity android:name=".Eggtikkiplay" />
+        <activity android:name=".Keemameethiplay" />
+        <activity android:name=".Lemonriceplay" />
+        <activity android:name=".Malabarfishplay" />
+        <activity android:name=".Mushroomplay" />
+        <activity android:name=".Muttonbryniplay" />
+        <activity android:name=".Paneerplay" />
+        <activity android:name=".Rawadhokplay" />
+        <activity android:name=".Tandoortikaplay"></activity >
+    </application>
+
+</manifest>

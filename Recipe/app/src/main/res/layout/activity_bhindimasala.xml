@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adityakumar.recipe.Bhindimasala"
+    android:background="@drawable/whitepap">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:src="@drawable/bhindimasala"
+            android:scaleType="fitStart"
+            android:layout_alignParentEnd="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bhindi Masala"
+            android:textSize="22sp"
+            android:id="@+id/text20"
+            android:layout_marginStart="20dp"
+            tools:layout_editor_absoluteY="255dp"
+            tools:layout_editor_absoluteX="16dp"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="216dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nIngrediants Required -\n
+• Ladies finger - ½ kg\n
+• Green chillies - 3\n
+• Red chilly powder - 1 ½ teaspoons\n
+• Salt - as required\n
+• Dhania powder - 2 teaspoons\n
+• Jeera powder - ½ teaspoon\n
+• Sugar - 1 teaspoon\n
+• Tomato - 1\n
+• Curd (fresh, thick) - 2 cups\n
+• Garam masala powder - ½ teaspoon\n
+• Cashew nuts - 15\n
+• Onions - 4\n
+• Poppy seeds - 1 tablespoon\n
+• Oil (for deep-frying) - as required\n
+\nMETHOD -
+\n1. Cut ladies finger into 1 ½ inch length pieces.
+\n2. Deep fry in hot oil till light brown. (Do not over fry since it may become crisp).
+\n3. Dice onions and tomatoes into 1 inch pieces.
+\n4. Slit green chillies vertically.
+\n5. Dry roast poppy and cashew nuts separately.
+\n6. Fry onions till transparent in little oil.
+\n7. Grind these onions with roasted Ingredients: to smooth paste.
+\n8. Heat oil in fry in pan, tamper aniseeds or cumin seeds with little fenugreek seeds.
+\n9. Put slit chillies and ground masala.
+\n10. Stir constantly in medium flame till golden brown in colour.
+\n11. Add sugar, salt, chilly powder, dhania, jeera powder and continue frying till oil separates.
+\n12. To this mix strained and whipped curds and continue frying till oil floats on top.
+\n13. Add cut tomatoes and ladies finger.
+\n14. Allow it to boil for a few minutes.
+\n15. Serve hot.\n
+\n
+\n
+"
+            android:textSize="15dp"
+            android:textColor="#006400"
+            android:layout_alignTop="@+id/text20"
+            android:layout_alignStart="@+id/text20"
+            android:layout_marginTop="25dp"
+            android:id="@+id/textView21"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go to Video"
+            android:layout_alignBottom="@+id/textView21"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adityakumar.recipe.Rawadhokla"
+    android:background="@drawable/redtext">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:src="@drawable/rawadhokla"
+            android:scaleType="fitStart"
+            android:layout_alignParentEnd="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rawa Dhokla"
+            android:textSize="22sp"
+            android:id="@+id/text20"
+            android:layout_marginStart="20dp"
+            tools:layout_editor_absoluteY="255dp"
+            tools:layout_editor_absoluteX="16dp"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="216dp"
+            android:textColor="#D3D3D3"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nIngrediants Required -\n
+• Fine rawa - 1 ½ cups
+\n• Bengal gram flour - 1 ½ tablespoons
+\n• Ginger-green chilly paste - 1 teaspoon
+\n• Turmeric powder - ¼ teaspoon
+\n• Sour thick curd - 1 ½ cups
+\n• Eno fruit salt - 1 ½ tablespoons
+\n• Oil - 3 tablespoons
+\n• Salt - ¾ teaspoon
+\n• Red chilly powder - ½ teaspoon\n
+\nINGREDIENTS FOR SEASONING -
+\n• Mustard seeds - ¼ teaspoon
+\n• Black gram dal - 1 teaspoon
+\n• Green chillies - 3
+\n• Curry leaves - 2 sprigs
+\n• Coriander leaves (cut) - 1 tablespoon\n
+\nMETHOD -
+\n1. Mix rawa, flour, turmeric, ginger-green chilly paste with salt to the curd.
+\n2. Mix ENO fruit salt with oil and mix in dhokla batter.
+\n3. Steam immediately in a greased plate.
+\n5. Heat another teaspoon of oil, add seasonings and pour on dhokla pieces.
+\n
+\n
+\n"
+            android:textSize="15dp"
+            android:layout_alignTop="@+id/text20"
+            android:layout_alignStart="@+id/text20"
+            android:layout_marginTop="25dp"
+        android:textColor="#D3D3D3"/>
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go to Video"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="211dp"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+</ScrollView>
